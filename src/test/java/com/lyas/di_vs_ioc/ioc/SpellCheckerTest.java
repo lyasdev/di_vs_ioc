@@ -7,8 +7,8 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 public class SpellCheckerTest {
 	
-	ApplicationContext ctx = new AnnotationConfigApplicationContext(AppConfiguration.class);
-    SpellChecker instance = ctx.getBean(SpellChecker.class);
+	private ApplicationContext ctx = new AnnotationConfigApplicationContext(AppConfiguration.class);
+    private SpellChecker instance = ctx.getBean(SpellChecker.class);
     
     @Test
 	public void should_return_true_test() {

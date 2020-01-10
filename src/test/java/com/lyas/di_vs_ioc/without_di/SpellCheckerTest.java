@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 
 public class SpellCheckerTest {
 	
-	public final SpellChecker instance = new SpellChecker();
+	private final SpellChecker instance = new SpellChecker();
 	
 	@Test
 	public void should_return_true_test() {

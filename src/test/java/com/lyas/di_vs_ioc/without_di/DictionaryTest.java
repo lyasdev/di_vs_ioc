@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 public class DictionaryTest {
 
-	public final Dictionary instance = new Dictionary();
+	private final Dictionary instance = new Dictionary();
 	
 	@Test
 	public void should_return_words_containing_h_test() {
